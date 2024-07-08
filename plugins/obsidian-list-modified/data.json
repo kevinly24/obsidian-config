@@ -1,0 +1,57 @@
+{
+  "tags": "",
+  "excludedFolders": "Logs",
+  "ignoredNameContains": "",
+  "outputFormat": "- [[link]]",
+  "appendSpaceAfterHeadings": false,
+  "timeFormat": "YYYY-MM-DD",
+  "autoCreateLogNote": true,
+  "logNoteType": "daily",
+  "writeInterval": 0,
+  "autoCreatePrimaryHeading": false,
+  "primaryHeading": "Changed Notes %% fold %%",
+  "modifiedHeading": "Modified",
+  "separateCreated": false,
+  "createdHeading": "Created",
+  "separateDeleted": false,
+  "deletedHeading": "Deleted",
+  "lastTrackedDate": "2024-07-08",
+  "trackedFiles": [
+    {
+      "path": "2. Projects/Obsidian/Obsidian.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    },
+    {
+      "path": "5. Logs/2024/07/2024-07-07.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    },
+    {
+      "path": "1. Inbox/Personal Knowledge Management.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    },
+    {
+      "path": "2. Projects/Obsidian/System Specification.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    },
+    {
+      "path": "2. Projects/Obsidian/Obsidian Vim.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    },
+    {
+      "path": "1. Inbox/Projects.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "3. Areas/Untitled",
+      "supposedList": "created",
+      "matchesCriteria": false
+    }
+  ],
+  "verboseModeEnabled": false
+}

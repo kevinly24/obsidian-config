@@ -1,0 +1,10 @@
+{
+  "theme": "moonstone",
+  "cssTheme": "Minimal",
+  "accentColor": "#7287fd",
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "live-edit-padding"
+  ]
+}
