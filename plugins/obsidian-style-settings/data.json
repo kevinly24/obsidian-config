@@ -1,4 +1,6 @@
 {
   "minimal-advanced@@styled-scrollbars": true,
-  "minimal-style@@active-line-on": true
+  "minimal-style@@active-line-on": true,
+  "minimal-style@@workspace-background-translucent@@light": "#FFFFFF00",
+  "minimal-style@@file-header-visibility": "minimal-tab-title-visible"
 }

@@ -6,5 +6,7 @@
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "live-edit-padding"
-  ]
+  ],
+  "textFontFamily": "Inter",
+  "translucency": true
 }

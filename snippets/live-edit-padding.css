@@ -3,5 +3,14 @@
 }
 
 .markdown-source-view.mod-cm6 .HyperMD-header { 
-	padding-bottom: 0.3em; 
+  padding-bottom: 0.3em; 
+}
+
+body .cm-heading-marker {
+    cursor: var(--cursor);
+    padding-left: 0px;
+}
+
+.cm-scroller.cm-vimMode {
+    padding-left: 50px !important;
 }
