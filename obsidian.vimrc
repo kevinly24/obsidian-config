@@ -15,35 +15,35 @@ vmap k gk
 
 exmap back obcommand app:go-back
 exmap forward obcommand app:go-forward
-nmap <C-o> :back
-nmap <C-i> :forward
+nmap <C-o> :back<cr>
+nmap <C-i> :forward<cr>
 
 " INFO doesn't work in reading mode: https://github.com/timhor/obsidian-editor-shortcuts/issues/20
 exmap nextHeading obcommand obsidian-editor-shortcuts:goToNextHeading
 exmap prevHeading obcommand obsidian-editor-shortcuts:goToPrevHeading
-nnoremap <C-j> :nextHeading
-nnoremap <C-k> :prevHeading
+nnoremap <C-j> :nextHeading<cr>
+nnoremap <C-k> :prevHeading<cr>
 
 exmap gotoHeading obcommand obsidian-another-quick-switcher:header-floating-search-in-file
-nnoremap gh :gotoHeading
+nnoremap gh :gotoHeading<cr>
 exmap quickSwitcher obcommand obsidian-another-quick-switcher:search-command_recent-search
-nnoremap go :quickSwitcher
+nnoremap go :quickSwitcher<cr>
 exmap quickSwitcher2hoplink obcommand obsidian-another-quick-switcher:search-command_2-hop-link-search
-nnoremap g2 :quickSwitcher2hoplink
+nnoremap g2 :quickSwitcher2hoplink<cr>
 exmap quickSwitcherbacklink obcommand obsidian-another-quick-switcher:backlink
-nnoremap gb :quickSwitcherbacklink
+nnoremap gb :quickSwitcherbacklink<cr>
 
 exmap dailyjournal obcommand daily-notes
-nnoremap <Space>j :dailyjournal
+nnoremap <Space>j :dailyjournal<cr>
 exmap dailyjournallist obcommand daily-notes-editor:open-daily-note-editor
-nnoremap <Space>l :dailyjournallist
+nnoremap <Space>l :dailyjournallist<cr>
 noremap gR source
 
 " [g]oto definition / link (shukuchi makes it forward-seeking)
 exmap followNextLink obcommand shukuchi:open-link
-nnoremap gx :followNextLink
-nnoremap ga :followNextLink
-nnoremap gd :followNextLink
+nnoremap gx :followNextLink<cr>
+nnoremap ga :followNextLink<cr>
+nnoremap gd :followNextLink<cr>
 
 
 """"""""""""""""""""""
@@ -64,13 +64,13 @@ exmap togglefold obcommand editor:toggle-fold
 exmap foldall obcommand editor:fold-all
 exmap foldless obcommand editor:fold-less
 exmap foldmore obcommand editor:fold-more
-nmap zo :togglefold
-nmap zc :togglefold
-nmap za :togglefold
-nmap zm :foldmore
-nmap zM :foldall
-nmap zr :foldless
-nmap zR :unfoldall
+nmap zo :togglefold<cr>
+nmap zc :togglefold<cr>
+nmap za :togglefold<cr>
+nmap zm :foldmore<cr>
+nmap zM :foldall<cr>
+nmap zr :foldless<cr>
+nmap zR :unfoldall<cr>
 
 """"""""""""""""""""""
 " Search
@@ -79,16 +79,16 @@ nmap zR :unfoldall
 nnoremap - /
 
 " <Esc> clears highlights
-nnoremap <Esc> :nohl
+nnoremap <Esc> :nohl<cr>
 
 " Another Quick Switcher ripgrep-search
 " somewhat close to Telescope's livegrep
 exmap liveGrep obcommand obsidian-another-quick-switcher:grep
-nnoremap gl :liveGrep
+nnoremap gl :liveGrep<cr>
 
 " Obsidian builtin Search & replace
 exmap searchReplace obcommand editor:open-search-replace
-nnoremap <Space>s :searchReplace
+nnoremap <Space>s :searchReplace<cr>
 
 """"""""""""""""""""""
 " Editing
@@ -115,34 +115,34 @@ nnoremap _ mzo<Esc>`z
 """"""""""""""""""""""
 
 exmap closeWindow obcommand workspace:close-window
-nnoremap ZZ :closeWindow
+nnoremap ZZ :closeWindow<cr>
 
 exmap focusRight obcommand editor:focus-right
-nmap <C-w>l :focusRight
+nmap <C-w>l :focusRight<cr>
 
 exmap focusLeft obcommand editor:focus-left
-nmap <C-w>h :focusLeft
+nmap <C-w>h :focusLeft<cr>
 
 exmap focusTop obcommand editor:focus-top
-nmap <C-w>k :focusTop
+nmap <C-w>k :focusTop<cr>
 
 exmap focusBottom obcommand editor:focus-bottom
-nmap <C-w>j :focusBottom
+nmap <C-w>j :focusBottom<cr>
 
 exmap vsplit obcommand workspace:split-vertical
-nmap <C-w>v :vsplit
+nmap <C-w>v :vsplit<cr>
 
 exmap split obcommand workspace:split-horizontal
-nmap <C-w>s :split
+nmap <C-w>s :split<cr>
 
 exmap closePane obcommand workspace:close
-nmap <C-w>q :closePane
+nmap <C-w>q :closePane<cr>
 
 " Tabs
 exmap nextTab obcommand workspace:next-tab
 exmap prevTab obcommand workspace:previous-tab
-nnoremap gt :nextTab
-nnoremap gT :prevTab
+nnoremap gt :nextTab<cr>
+nnoremap gT :prevTab<cr>
 
 " Alt Buffer (emulates `:buffer #`)
 " i have no idea what this does
@@ -154,8 +154,8 @@ nnoremap gT :prevTab
 " Toggles
 """"""""""""""""""""""
 exmap toggleLeftSideBar obcommand app:toggle-left-sidebar
-nnoremap <Space>tl :toggleLeftSideBar
+nnoremap <Space>tl :toggleLeftSideBar<cr>
 exmap toggleRightSideBar obcommand app:toggle-right-sidebar
-nnoremap <Space>tr :toggleRightSideBar
+nnoremap <Space>tr :toggleRightSideBar<cr>
 exmap toggleMinimalFocus obcommand obsidian-minimal-settings:toggle-minimal-focus-mode
-nnoremap <Space>tf :toggleMinimalFocus
+nnoremap <Space>tf :toggleMinimalFocus<cr>
